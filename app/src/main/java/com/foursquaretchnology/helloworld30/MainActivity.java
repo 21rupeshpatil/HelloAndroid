@@ -10,4 +10,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
+    public void AddNumbers()
+    {
+        int i = 2*2;
+
+        String test = "Test";
+    }
+
 }
