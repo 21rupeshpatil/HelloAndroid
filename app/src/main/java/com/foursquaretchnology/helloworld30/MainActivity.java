@@ -13,9 +13,16 @@ public class MainActivity extends AppCompatActivity {
 
     public void AddNumbers()
     {
-        int i = 2*2;
+        int i = 2 + 2;
 
-        String test = "Test";
+        String op = "Addition";
+    }
+
+    public void SubNumbers()
+    {
+        int i = 2 - 2;
+
+        String op = "Subtraction";
     }
 
 }
