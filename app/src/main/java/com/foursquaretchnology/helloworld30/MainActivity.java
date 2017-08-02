@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         if(min >= 40 && max <= 90)
         {
-            op = "Small Ranged Random Numbers :)";
+            op = "Small Ranged Random Numbers ;)";
         }
 
     }
