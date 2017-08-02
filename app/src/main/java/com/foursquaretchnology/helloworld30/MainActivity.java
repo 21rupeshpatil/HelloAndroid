@@ -39,4 +39,18 @@ public class MainActivity extends AppCompatActivity {
         String op = "Division";
     }
 
+    public void RandomNumbers()
+    {
+        int i = 5;
+        int j = 10;
+
+        String op = "Random Numbers";
+
+        if(i <= 5 && j >= 5)
+        {
+            op = "Small Random Numbers";
+        }
+
+    }
+
 }
