@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         String op = "Subtraction";
     }
 
-    public void Multinumbers()
+    public void MultiplyNumbers()
     {
         int i = 2 * 2;
 
