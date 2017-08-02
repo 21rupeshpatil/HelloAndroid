@@ -41,14 +41,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void RandomNumbers()
     {
-        int min = 40;
-        int max = 70;
+        int min = 10;
+        int max = 90;
 
         String op = "Random Numbers";
 
         if(min >= 40 && max <= 90)
         {
-            op = "Small Ranged Random Numbers";
+            op = "Small Ranged Random Numbers ;)";
         }
 
     }
