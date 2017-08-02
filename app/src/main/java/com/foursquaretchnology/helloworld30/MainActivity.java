@@ -2,6 +2,7 @@ package com.foursquaretchnology.helloworld30;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -43,12 +44,14 @@ public class MainActivity extends AppCompatActivity {
     {
         int min = 50;
         int max = 60;
+        float scalefactor = 2.5f;
 
         String op = "Random Numbers";
 
         if(min >= 40 && max <= 90)
         {
             op = "Small Ranged Random Numbers ;)";
+            Log.d("Log", ": ScaleFactor - " + scalefactor);
         }
 
     }
