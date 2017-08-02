@@ -25,6 +25,20 @@ public class MainActivity extends AppCompatActivity {
         String op = "Subtraction";
     }
 
+    public void MultiplyNumbers()
+    {
+        int i = 2 * 2;
+
+        String op = "Multiplication";
+    }
+
+    public void DivideNumbers()
+    {
+        int i = 2 / 2;
+
+        String op = "Division";
+    }
+
     public void RandomNumbers()
     {
         int i = 5;
@@ -38,5 +52,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
 
 }
