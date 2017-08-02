@@ -25,4 +25,11 @@ public class MainActivity extends AppCompatActivity {
         String op = "Subtraction";
     }
 
+    public void Multinumbers()
+    {
+        int i = 2 * 2;
+
+        String op = "Multiplication";
+    }
+
 }
