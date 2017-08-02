@@ -32,4 +32,11 @@ public class MainActivity extends AppCompatActivity {
         String op = "Multiplication";
     }
 
+    public void DivideNumbers()
+    {
+        int i = 2 / 2;
+
+        String op = "Division";
+    }
+
 }
